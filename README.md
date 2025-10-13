@@ -8,7 +8,7 @@ The goal is to design and implement intelligent defence systems capable of **rea
 BSc in Electronics & Telecommunication Engineering (CUET)  
 Research Focus: *Cybersecurity, Machine Learning, and AI-based Defence Systems*  
 
-📧 Contact: [ahrahat56@gmail.com]  
+📧 Contact: [shrahat56@gmail.com]  
 🌐 LinkedIn: [https://www.linkedin.com/in/showkot-hosen10]  
 🧩 Kaggle: [https://www.kaggle.com/showkothosen]
 🔒TryHackMe : [https://tryhackme.com/p/Showkot313]
