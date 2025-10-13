@@ -16,7 +16,7 @@ This project applies **Natural Language Processing (NLP)** and **Deep Learning**
 - Visualized model performance with confusion matrix, accuracy, precision, recall, and F1-score.  
 - Modular and easy to extend with other deep models (BiLSTM, GRU, Transformer, etc.).
 ### ✳️ Project link
--[https://www.kaggle.com/code/showkothosen/text-stego-detection-using-lstm]
+- [https://www.kaggle.com/code/showkothosen/text-stego-detection-using-lstm]
 ---
 
 ## 🧩 Tech Stack
