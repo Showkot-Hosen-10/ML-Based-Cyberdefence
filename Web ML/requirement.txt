@@ -1,0 +1,6 @@
+pip install scikit-learn==1.2.2
+pip install numpy==1.26.4
+pip install pandas==2.2.3
+pip install joblib==1.5.2
+pip install flask
+pip install gunicorn  # optional but recommended
