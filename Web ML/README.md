@@ -19,7 +19,8 @@ python app.py
 ```
 ### If fails the above bash then only try the following
 If folder already exists with broken files (delete the broken directory and reinstall):
-```Windows (PowerShell / CMD):cmd
+```
+Windows (PowerShell / CMD):cmd
 rmdir /s "ML-Based-Cyberdefence"
 Linux / macOS:Bash
 rm -rf "ML-Based-Cyberdefence"
