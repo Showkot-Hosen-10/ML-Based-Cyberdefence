@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Security Alerts (Admin Only)</h2>
+<table>
+  <tr>
+    <th>User</th><th>Type</th><th>Endpoint</th><th>Input name</th><th>Input</th><th>Score</th><th>Time</th>
+  </tr>
+  {% for r in logs %}
+  <tr>
+    <td>{{ r[0] }}</td><td>{{ r[1] }}</td><td>{{ r[2] }}</td><td>{{ r[3] }}</td><td style="max-width:300px;word-break:break-all">{{ r[4] }}</td><td>{{ '%.3f'|format(r[5]) }}</td><td>{{ r[6] }}</td>
+  </tr>
+  {% endfor %}
+</table>
+{% endblock %}

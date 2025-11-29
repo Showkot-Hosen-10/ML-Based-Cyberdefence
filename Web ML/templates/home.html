@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Welcome {{ username }}</h2>
+
+<form method="get">
+    <input name="search" placeholder="search...">
+    <button type="submit">Search</button>
+</form>
+
+<br>
+
+<form method="post">
+    <input name="ip" placeholder="ping ip/host">
+    <button type="submit">Ping</button>
+</form>
+
+<p style="margin-top:10px;">{{ search_result }}</p>
+<pre>{{ ping_output }}</pre>
+
+<p style="margin-top:12px;">
+    <a href="{{ url_for('profile') }}">Profile</a> |
+    <a href="{{ url_for('logout') }}">Logout</a>
+    {% if session.role == 'admin' %} | <a href="{{ url_for('admin_alerts') }}">Admin Alerts</a> {% endif %}
+</p>
+{% endblock %}

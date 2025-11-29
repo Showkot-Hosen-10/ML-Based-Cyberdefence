@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Profile Page</h2>
+
+<div>
+  <strong>Name:</strong> {{ profile_info.name }}<br>
+  <strong>Email:</strong> {{ profile_info.email }}<br>
+  <strong>Bio:</strong> {{ profile_info.bio }}<br>
+  {% if profile_info.idor_flag %}
+    <p style="color:#ff6b6b">{{ profile_info.idor_flag }}</p>
+  {% endif %}
+</div>
+
+<form method="post" enctype="multipart/form-data" style="margin-top:10px;">
+  <input type="file" name="file"><br><br>
+  <button type="submit">Upload</button>
+</form>
+
+<p>{{ upload_message }}</p>
+
+<p><a href="{{ url_for('home') }}">Home</a></p>
+{% endblock %}
