@@ -14,20 +14,20 @@
 - 100% accurate SQLi & 99.99% XSS detection (Decision Tree + TF-IDF)  
 - IDOR detection    
 
-### Run Locally (Tested & Works 100%)
+### Run Locally (Windows • Linux • macOS) – Works 100%
 
-```cmd
+```bash
 git clone https://github.com/Showkot-Hosen-10/ML-Based-Cyberdefence.git
-cd "ML-Based-Cyberdefence\Web ML"
+cd "ML-Based-Cyberdefence/Web ML"
 pip install -r requirements.txt
 python app.py
-#### Windows (Command Prompt / PowerShell)
-# 1. Go to your desktop or any folder you want
-cd C:\Users\USER\Desktop
+Open your browser → http://127.0.0.1:5000
 
-# 2. Delete the old broken folder (safe)
+If fails the above bash then only try the following 
+
+If folder already exists with broken files  (delete the broken directory and  reinstall):
+
+Windows (PowerShell / CMD):cmd
 rmdir /s "ML-Based-Cyberdefence"
-
-#### Linux (cmd)
-# 1. Delete old copy (if exists)
+Linux / macOS:Bash
 rm -rf "ML-Based-Cyberdefence"
