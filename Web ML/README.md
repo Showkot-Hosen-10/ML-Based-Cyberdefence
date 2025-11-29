@@ -17,6 +17,6 @@
 ### Quick Start
 ```bash
 git clone https://github.com/Showkot-Hosen-10/ML-Based-Cyberdefence.git
-cd ML-Based-Cyberdefence
+cd ML-Based-Cyberdefence/Web ML   # Enter the Web ML folder
 pip install -r requirements.txt
 python app.py
