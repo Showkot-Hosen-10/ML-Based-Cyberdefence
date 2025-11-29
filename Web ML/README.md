@@ -12,9 +12,7 @@
 
 ### Features
 - 100% accurate SQLi & 99.99% XSS detection (Decision Tree + TF-IDF)  
-- Path traversal & IDOR detection  
-- Admin dashboard `/admin/alerts`  
-- Login bypass: `admin'--`
+- IDOR detection    
 
 ### Quick Start
 ```bash
