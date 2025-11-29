@@ -14,9 +14,10 @@
 - 100% accurate SQLi & 99.99% XSS detection (Decision Tree + TF-IDF)  
 - IDOR detection    
 
-### Quick Start
+### Run Locally (Tested & Works 100%)
+
 ```bash
 git clone https://github.com/Showkot-Hosen-10/ML-Based-Cyberdefence.git
-cd ML-Based-Cyberdefence/Web ML   # Enter the Web ML folder
-pip install -r requirement.txt
+cd ML-Based-Cyberdefence/Web\ ML
+pip install -r requirements.txt
 python app.py
