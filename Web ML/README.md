@@ -1,6 +1,9 @@
 # MLWAF
 **Real-Time ML-Powered Web Defense**
+
 ![MLWAF Architecture](web_ML.drawio.png)
+
+
 
 **Live CTF Challenge • 3 Flags • 100% ML Detection**
 ### Flags (revealed on successful detection)
