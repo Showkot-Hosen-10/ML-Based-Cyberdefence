@@ -12,8 +12,7 @@
 - `flag{IDOR_Found_1n_th3_m4tr1x}` → `/profile?id=313`
 ### Features
 - 100% accurate SQLi & 99.99% XSS detection (Decision Tree + TF-IDF)
-- IDOR & Path Traversal detection
-- Real-time admin dashboard `/admin/alerts`
+- IDOR detection
 ### Run Locally (Windows • Linux • macOS)
 ```bash:disable-run
 git clone https://github.com/Showkot-Hosen-10/ML-Based-Cyberdefence.git
